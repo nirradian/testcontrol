@@ -1,0 +1,22 @@
+
+#active-boxes-container {
+  height: 100%;
+
+  .content-box {
+    @include fadeIn();
+
+    position: relative;
+    background-color: white;
+    border: solid 2px #515151;
+    min-width:500px;
+    min-height: 300px;
+    margin: 15px;
+
+    .close-button {
+      position: absolute;
+      right: 3px;
+      top: 3px;
+    }
+  }
+}
+

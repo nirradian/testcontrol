@@ -1,0 +1,24 @@
+html, body, #react-body, #mount-point {
+  height: 100%;
+  overflow: hidden;
+}
+
+#navigation-bar {
+
+  .logo {
+    padding: 10px;
+  }
+
+  float: left;
+  height: 100%;
+  background-color: aliceblue;
+}
+
+#main-content {
+  overflow-y: auto;
+  display: flex;
+  height: 100%;
+  background-color: #F4F2F0;
+
+}
+
